@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+{% load static %}
+
+<!-- Mirrored from rrdevs.net/demos/html/busico/index-4.html by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 27 Feb 2024 04:18:39 GMT -->
+<!-- Added by HTTrack -->
+<meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
+
+<head>
+    <!-- ========== Meta Tags ========== -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="modinatheme">
+    <!-- ======== Page title ============ -->
+    <title>BUSICO - Multipurpose Bootstrap 5 Template</title>
+    <!-- ========== Favicon Icon ========== -->
+    <link rel="shortcut icon" href="static/frontend/img/favicon.png">
+    <!-- ===========  All Stylesheet ================= -->
+    <!--  Icon css plugins -->
+    <link rel="stylesheet" href="{% static 'frontend/css/icons.css' %}">
+    <!--  animate css plugins -->
+    <link rel="stylesheet" href="{% static 'frontend/css/animate.css' %}">
+    <!--  magnific-popup css plugins -->
+    <link rel="stylesheet" href="{% static 'frontend/css/magnific-popup.css' %}">
+    <!--  mk_charts css plugins -->
+    <link rel="stylesheet" href="{% static 'frontend/css/mk_charts.css' %}">
+    <!--  owl carosuel css plugins -->
+    <link rel="stylesheet" href="{% static 'frontend/css/owl.carousel.min.css' %}">
+    <!-- meanmenu css file -->
+    <link rel="stylesheet" href="{% static 'frontend/css/meanmenu.css' %}">
+    <!--  owl theme css plugins -->
+    <link rel="stylesheet" href="{% static 'frontend/css/owl.theme.css' %}">
+    <!--  Bootstrap css plugins -->
+    <link rel="stylesheet" href="{% static 'frontend/css/bootstrap.min.css' %}">
+    <!--  main style css file -->
+    <link rel="stylesheet" href="{% static 'frontend/css/style.css' %}">
+    <!-- template main style css file -->
+    <!-- <link rel="stylesheet" href="style.css"> -->
+
+</head>
+
+<body class="body-wrapper font-oswald">
+
+    <!-- preloader start -->
+    <div id="preloader">
+        <div class="preloader-close">x</div>
+        <div class="sk-three-bounce">
+            <div class="sk-child sk-bounce1"></div>
+            <div class="sk-child sk-bounce2"></div>
+            <div class="sk-child sk-bounce3"></div>
+        </div>
+    </div>
+    <!-- preloader start -->
+
+    <!-- search popup start -->
+    <div class="search__popup">
+        <div class="container">
+            <div class="row">
+                <div class="col-xxl-12">
+                    <div class="search__wrapper">
+                        <div class="search__top d-flex justify-content-between align-items-center">
+                            <div class="search__logo">
+                                <a href="index.html">
+                                    <img src="assets/img/footer-logo.png" alt="">
+                                </a>
+                            </div>
+                            <div class="search__close">
+                                <button type="button" class="search__close-btn search-close-btn">
+                                    <i class="fal fa-times"></i>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="search__form">
+                            <form action="#">
+                                <div class="search__input">
+                                    <input class="search-input-field" type="text" placeholder="Search Here...">
+                                    <span class="search-focus-border"></span>
+                                    <button type="submit">
+                                        <i class="far fa-search"></i>
+                                    </button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- search popup end -->
+
+    <!-- welcome content start from here -->
+    {% include 'main/nav.html' %}
+
+
+    <!-- side toggle start -->
+    {% include 'main/aside.html' %}
+    <!-- side toggle end -->
+
+    {% include 'main/social.html' %}
+
+    {% block content %}
+
+    {% endblock %}
+
+    {% include 'main/footer.html' %}
+
+    <!--  ALl JS Plugins
+    ====================================== -->
+    <script src="{% static 'frontend/js/jquery.min.js' %}"></script>
+    <script src="{% static 'frontend/js/bootstrap.bundle.min.js' %}"></script>
+    <script src="{% static 'frontend/js/meanmenu.js' %}"></script>
+    <script src="{% static 'frontend/js/jquery.easing.js' %}"></script>
+    <script src="{% static 'frontend/js/isotope.pkgd.min.js' %}"></script>
+    <script src="{% static 'frontend/js/imageload.min.js' %}"></script>
+    <script src="{% static 'frontend/js/owl.carousel.min.js' %}"></script>
+    <script src="{% static 'frontend/js/slick.min.js' %}"></script>
+    <script src="{% static 'frontend/js/magnific-popup.min.js' %}"></script>
+    <script src="{% static 'frontend/js/counterup.min.js' %}"></script>
+    <script src="{% static 'frontend/js/wow.min.js' %}"></script>
+    <script src="{% static 'frontend/js/scrollUp.min.js' %}"></script>
+    <script src="{% static 'frontend/js/ajax-mail.js' %}"></script>
+    <script src="{% static 'frontend/js/active.js' %}"></script>
+</body>
+
+
+<!-- Mirrored from rrdevs.net/demos/html/busico/index-4.html by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 27 Feb 2024 04:18:49 GMT -->
+
+</html>

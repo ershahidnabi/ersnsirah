@@ -1,0 +1,255 @@
+{% extends 'index.html' %}
+{% load static %}
+{% block content %}
+<!DOCTYPE html>
+<html lang="en">
+
+
+<!-- Mirrored from rrdevs.net/demos/html/busico/projects.html by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 27 Feb 2024 04:19:33 GMT -->
+<!-- Added by HTTrack -->
+<meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
+
+<head>
+    <!-- ========== Meta Tags ========== -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="modinatheme">
+    <!-- ======== Page title ============ -->
+    <title>BUSICO - Multipurpose Bootstrap 5 Template</title>
+    <!-- ========== Favicon Icon ========== -->
+    <link rel="shortcut icon" href="assets/img/favicon.png">
+    <!-- ===========  All Stylesheet ================= -->
+
+</head>
+
+<body class="body-wrapper">
+
+
+
+
+    <div class="page-banner-wrap bg-cover" style="background-image: url('assets/img/page-banner.jpg')">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-lg-12">
+                    <div class="page-heading text-white">
+                        <h1>Portfolio</h1>
+                    </div>
+                    <div class="breadcrumb-wrap">
+                        <nav>
+                            <ol class="breadcrumb">
+                                <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                                <li class="breadcrumb-item active" aria-current="page">Portfolio</li>
+                            </ol>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <section class="portfolio-showcase-wrapper section-padding">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-lg-12 mb-30 text-center">
+                    <div class="portfolio-cat-filter">
+                        <button data-filter="*" class="active">All Projects</button>
+                        <button data-filter=".building">Building</button>
+                        <button data-filter=".construction">Construction</button>
+                        <button data-filter=".architecture">Architecture</button>
+                        <button data-filter=".planning">Planning</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row grid">
+
+                <div class="col-lg-4 col-md-6 grid-item construction building">
+                    <div class="project-item-card">
+                        <a href="{% static 'frontend/img/project/port1.jpg' %}" class="d-block popup-link"><img
+                                src="{% static 'frontend/img/project/port1.jpg' %}" alt=""></a>
+                        <div class="contents">
+                            <a href="project-details.html" class="project-link"><i class="fal fa-plus"></i></a>
+                            <span>INTERIOR DESIGN</span>
+                            <h3><a href="project-details.html">CATALYST ARCHITECTS</a></h3>
+                            <p>May 25 2010</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 grid-item planning architecture building">
+                    <div class="project-item-card">
+                        <a href="{% static 'frontend/img/project/port2.jpg' %}" class="d-block popup-link"><img
+                                src="{% static 'frontend/img/project/port2.jpg' %}" alt=""></a>
+                        <div class="contents">
+                            <a href="project-details.html" class="project-link"><i class="fal fa-plus"></i></a>
+                            <span>INTERIOR DESIGN</span>
+                            <h3><a href="project-details.html">CATALYST ARCHITECTS</a></h3>
+                            <p>July 25 2010</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 grid-item planning architecture">
+                    <div class="project-item-card">
+                        <a href="{% static 'frontend/img/project/port3.jpg' %}" class="d-block popup-link"><img
+                                src="{% static 'frontend/img/project/port3.jpg' %}" alt=""></a>
+                        <div class="contents">
+                            <a href="project-details.html" class="project-link"><i class="fal fa-plus"></i></a>
+                            <span>INTERIOR DESIGN</span>
+                            <h3><a href="project-details.html">CATALYST ARCHITECTS</a></h3>
+                            <p>July 25 2010</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 grid-item planning architecture">
+                    <div class="project-item-card">
+                        <a href="{% static 'frontend/img/project/port5.jpg' %}" class="d-block popup-link"><img
+                                src="{% static 'frontend/img/project/port5.jpg' %}" alt=""></a>
+                        <div class="contents">
+                            <a href="project-details.html" class="project-link"><i class="fal fa-plus"></i></a>
+                            <span>INTERIOR DESIGN</span>
+                            <h3><a href="project-details.html">CATALYST ARCHITECTS</a></h3>
+                            <p>July 25 2010</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 grid-item planning architecture">
+                    <div class="project-item-card">
+                        <a href="{% static 'frontend/img/project/port4.jpg' %}" class="d-block popup-link"><img
+                                src="{% static 'frontend/img/project/port4.jpg' %}" alt=""></a>
+                        <div class="contents">
+                            <a href="project-details.html" class="project-link"><i class="fal fa-plus"></i></a>
+                            <span>INTERIOR DESIGN</span>
+                            <h3><a href="project-details.html">CATALYST ARCHITECTS</a></h3>
+                            <p>July 25 2010</p>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="col-lg-4 col-md-6 grid-item construction building">
+                    <div class="project-item-card">
+                        <a href="{% static 'frontend/img/project/port5.jpg' %}" class="d-block popup-link"><img
+                                src="{% static 'frontend/img/project/port5.jpg' %}" alt=""></a>
+                        <div class="contents">
+                            <a href="project-details.html" class="project-link"><i class="fal fa-plus"></i></a>
+                            <span>INTERIOR DESIGN</span>
+                            <h3><a href="project-details.html">CATALYST ARCHITECTS</a></h3>
+                            <p>May 25 2010</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 grid-item construction building">
+                    <div class="project-item-card">
+                        <a href="{% static 'frontend/img/project/port6.jpg' %}" class="d-block popup-link"><img
+                                src="{% static 'frontend/img/project/port6.jpg' %}" alt=""></a>
+                        <div class="contents">
+                            <a href="project-details.html" class="project-link"><i class="fal fa-plus"></i></a>
+                            <span>INTERIOR DESIGN</span>
+                            <h3><a href="project-details.html">CATALYST ARCHITECTS</a></h3>
+                            <p>May 25 2010</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 grid-item construction building">
+                    <div class="project-item-card">
+                        <a href="{% static 'frontend/img/project/port7.jpg' %}" class="d-block popup-link"><img
+                                src="{% static 'frontend/img/project/port7.jpg' %}" alt=""></a>
+                        <div class="contents">
+                            <a href="project-details.html" class="project-link"><i class="fal fa-plus"></i></a>
+                            <span>INTERIOR DESIGN</span>
+                            <h3><a href="project-details.html">CATALYST ARCHITECTS</a></h3>
+                            <p>May 25 2010</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 grid-item construction building">
+                    <div class="project-item-card">
+                        <a href="{% static 'frontend/img/project/port8.jpg' %}" class="d-block popup-link"><img
+                                src="{% static 'frontend/img/project/port8.jpg' %}" alt=""></a>
+                        <div class="contents">
+                            <a href="project-details.html" class="project-link"><i class="fal fa-plus"></i></a>
+                            <span>INTERIOR DESIGN</span>
+                            <h3><a href="project-details.html">CATALYST ARCHITECTS</a></h3>
+                            <p>May 25 2010</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 grid-item construction building">
+                    <div class="project-item-card">
+                        <a href="{% static 'frontend/img/project/port9.jpg' %}" class="d-block popup-link"><img
+                                src="{% static 'frontend/img/project/port9.jpg' %}" alt=""></a>
+                        <div class="contents">
+                            <a href="project-details.html" class="project-link"><i class="fal fa-plus"></i></a>
+                            <span>INTERIOR DESIGN</span>
+                            <h3><a href="project-details.html">CATALYST ARCHITECTS</a></h3>
+                            <p>May 25 2010</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="load-more-btn text-center mt-5">
+                <a href="projects-2.html" class="theme-btn">Load More <i class="fal fa-spinner"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <section class="cta-wrapper cta-theme-bg">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-8 col-xl-7 col-12">
+                    <div class="cta-text align-items-center d-md-flex text-center text-md-start">
+                        <i class="flaticon-email"></i>
+                        <h2>Looking for a quality Architect for your project?</h2>
+                    </div>
+                </div>
+                <div class="col-md-4 col-xl-5 pe-xl-5 text-center text-md-end">
+                    <a href="contact.html" class="theme-btn border-btn text-center">Get a Free Quote</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="brand-carousel-wrapper section-padding">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-12 col-12">
+                    <div class="brand-carousel-active owl-carousel">
+                        <div class="single-brand-logo">
+                            <img src="{% static 'frontend/img/brand-logo/b1.png' %}" alt="">
+                        </div>
+                        <div class="single-brand-logo">
+                            <img src="{% static 'frontend/img/brand-logo/b2.png' %}" alt="">
+                        </div>
+                        <div class="single-brand-logo">
+                            <img src="{% static 'frontend/img/brand-logo/b3.png' %}" alt="">
+                        </div>
+                        <div class="single-brand-logo">
+                            <img src="{% static 'frontend/img/brand-logo/b4.png' %}" alt="">
+                        </div>
+                        <div class="single-brand-logo">
+                            <img src="{% static 'frontend/img/brand-logo/b5.png' %}" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!--  ALl JS Plugins====================================== -->
+
+</body>
+
+
+</html>
+{% endblock %}
